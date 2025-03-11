@@ -1,4 +1,4 @@
-const palingdromeTest =(num)=>{
+const palindromeTest =(num)=>{
     let output = 0 , sameNum = num;
     while(sameNum >0)
     {
@@ -9,4 +9,4 @@ const palingdromeTest =(num)=>{
     return output === num
  }
  
- console.log(palingdromeTest(1321))
+ console.log(palindromeTest(1321))
